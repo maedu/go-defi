@@ -22,11 +22,11 @@ import (
 	"math/big"
 	"time"
 
-	uniswapv2factory "github.com/bonedaddy/go-defi/bindings/uniswap/factory"
-	uniswapv2pair "github.com/bonedaddy/go-defi/bindings/uniswap/pair"
-	"github.com/bonedaddy/go-defi/utils"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
+	uniswapv2factory "github.com/maedu/go-defi/bindings/uniswap/factory"
+	uniswapv2pair "github.com/maedu/go-defi/bindings/uniswap/pair"
+	"github.com/maedu/go-defi/utils"
 )
 
 // Client allows to do operations on uniswap smart contracts.

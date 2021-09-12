@@ -9,11 +9,11 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/bonedaddy/go-defi/testenv"
-	"github.com/bonedaddy/go-defi/utils"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethclient"
 	config "github.com/ipfs/go-ipfs-config"
+	"github.com/maedu/go-defi/testenv"
+	"github.com/maedu/go-defi/utils"
 	"github.com/pkg/errors"
 	"github.com/vrischmann/envconfig"
 	"go.bobheadxi.dev/zapx/zapx"

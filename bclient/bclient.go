@@ -4,11 +4,11 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/bonedaddy/go-defi/sushiswap"
-	"github.com/bonedaddy/go-defi/testenv"
-	"github.com/bonedaddy/go-defi/uniswap"
-	"github.com/bonedaddy/go-defi/utils"
 	"github.com/ethereum/go-ethereum/ethclient"
+	"github.com/maedu/go-defi/sushiswap"
+	"github.com/maedu/go-defi/testenv"
+	"github.com/maedu/go-defi/uniswap"
+	"github.com/maedu/go-defi/utils"
 )
 
 // BClient wraps ethclient and provides helper functions for commonly used functionality

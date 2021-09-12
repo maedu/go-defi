@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	gcli "github.com/bonedaddy/go-defi/cli"
+	gcli "github.com/maedu/go-defi/cli"
 )
 
 var (

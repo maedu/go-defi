@@ -7,9 +7,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/bonedaddy/go-defi/bclient"
-	"github.com/bonedaddy/go-defi/config"
-	"github.com/bonedaddy/go-defi/txmatch"
+	"github.com/maedu/go-defi/bclient"
+	"github.com/maedu/go-defi/config"
+	"github.com/maedu/go-defi/txmatch"
 	"github.com/pkg/errors"
 	"github.com/urfave/cli/v2"
 )
